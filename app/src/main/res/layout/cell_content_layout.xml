@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+
+    <!--android:visibility="gone"-->
+
+
+    <!--#4682B4-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:paddingBottom="7dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Nome da promoção"
+            android:id="@+id/nomePromo2"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/menu_icon"
+            android:layout_alignParentLeft="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fotoPromo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgContent"
+        android:orientation="vertical"
+        android:paddingBottom="6dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="9dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/local"
+                style="@style/ContentMainBadgeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="5dp"
+                android:text="LOCAL"
+                android:layout_alignParentLeft="true" />
+
+            <ImageView
+                android:id="@+id/logoIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/local"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/avatar" />
+
+            <TextView
+                android:id="@+id/nomeLoja2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/logoIV"
+                android:layout_marginBottom="2dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/logoIV"
+                android:text="Nome Estabelecimento"
+                android:textColor="@color/mainTextColor"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/logoIV" />
+
+            <ImageView
+                android:id="@+id/stars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@id/nomeLoja2"
+                android:layout_below="@id/nomeLoja2"
+                android:src="@drawable/stars"
+                android:layout_alignLeft="@id/nomeLoja2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/stars"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/stars"
+                android:text="@string/rating_mock"
+                android:textColor="@color/contentBadgeTitle"
+                android:textSize="12sp"
+                android:id="@+id/ratingNumber"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@id/stars" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/arrowLoja"
+                android:src="@drawable/arrow"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="9dp"
+            android:src="@color/contentDividerLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/enderecotip"
+                    style="@style/ContentMainBadgeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="ENDEREÇO"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:id="@+id/endereco1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@id/enderecotip"
+                    android:layout_below="@id/enderecotip"
+                    android:text="R. Prof Joca Vieira, 1227"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_alignLeft="@id/enderecotip" />
+
+                <TextView
+                    android:id="@+id/endereco2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@id/endereco1"
+                    android:layout_below="@id/endereco1"
+                    android:text="Fátima, Teresina - 64048-300"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="14sp"
+                    android:layout_alignLeft="@id/endereco1" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/arrow"
+                    android:id="@+id/arrowEndereco"
+                    android:layout_alignParentRight="true"
+                    android:foregroundGravity="center_vertical"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="7dp"
+            android:src="@color/contentDividerLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/abretip"
+                    style="@style/ContentMainBadgeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="ABRE"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:id="@+id/abreHora2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@id/abretip"
+                    android:layout_below="@id/abretip"
+                    android:text="18:00"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_alignLeft="@id/abretip" />
+
+                <TextView
+                    android:id="@+id/dia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@id/abreHora2"
+                    android:layout_below="@id/abreHora2"
+                    android:text="Hoje"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="14sp"
+                    android:layout_alignLeft="@id/abreHora2" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/fechatip"
+                    style="@style/ContentMainBadgeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="FECHA"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:id="@+id/fechaHora2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@id/fechatip"
+                    android:layout_below="@id/fechatip"
+                    android:text="02:00"
+                    android:textColor="@color/mainTextColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_alignLeft="@id/fechatip" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/euVouBotao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/btnRequest"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:text="EU VOU!"
+            android:textAlignment="center"
+            android:textColor="@color/mainTextColor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:id="@+id/euVouText"
+            android:text="55 disseram que vão"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/contentBadgeTitle"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

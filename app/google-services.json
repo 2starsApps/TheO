@@ -1,0 +1,376 @@
+{
+  "project_info": {
+    "project_number": "422953666357",
+    "firebase_url": "https://theo-ebeeb.firebaseio.com",
+    "project_id": "theo-ebeeb",
+    "storage_bucket": "theo-ebeeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422953666357:android:6ef5d8aacdb0d61d",
+        "android_client_info": {
+          "package_name": "com.preparaxcursos.direitocomentado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422953666357-utsd1sm21fqf7gtq9g20laeb77jnvasd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.preparaxcursos.direitocomentado",
+            "certificate_hash": "fd57db2489053c3a1fc116fee3a93b284b6743e4"
+          }
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDubPBXmr8cZvAeoDFxzSL6jUfWXJlUzL0"
+        },
+        {
+          "current_key": "AIzaSyCSdEqmjQ9PeJnNW8WxFO7AxIFTlOq-WQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422953666357:android:6c77d2e4b0f0e63e",
+        "android_client_info": {
+          "package_name": "com.preparaxcursos.sus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422953666357-paqrset0908j8hpcvlvec57dqumt715h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.preparaxcursos.sus",
+            "certificate_hash": "fd57db2489053c3a1fc116fee3a93b284b6743e4"
+          }
+        },
+        {
+          "client_id": "422953666357-s88g488gkc0kghccauf3lqcv7rqafnh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.preparaxcursos.sus",
+            "certificate_hash": "dadcedfafede6384af6bcad044716728715417fa"
+          }
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDubPBXmr8cZvAeoDFxzSL6jUfWXJlUzL0"
+        },
+        {
+          "current_key": "AIzaSyCSdEqmjQ9PeJnNW8WxFO7AxIFTlOq-WQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422953666357:android:a8028158f737fdbf",
+        "android_client_info": {
+          "package_name": "losfreitasapps.com.bolt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422953666357-i3vp0spj4dgp77it71983j64ale70ejt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "losfreitasapps.com.bolt",
+            "certificate_hash": "fd57db2489053c3a1fc116fee3a93b284b6743e4"
+          }
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDubPBXmr8cZvAeoDFxzSL6jUfWXJlUzL0"
+        },
+        {
+          "current_key": "AIzaSyCSdEqmjQ9PeJnNW8WxFO7AxIFTlOq-WQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422953666357:android:5df152771417c558",
+        "android_client_info": {
+          "package_name": "losfreitasapps.com.theo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422953666357-lr7qjfjv90nnfm15vithc6vld8a2i3vr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "losfreitasapps.com.theo",
+            "certificate_hash": "fd57db2489053c3a1fc116fee3a93b284b6743e4"
+          }
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDubPBXmr8cZvAeoDFxzSL6jUfWXJlUzL0"
+        },
+        {
+          "current_key": "AIzaSyCSdEqmjQ9PeJnNW8WxFO7AxIFTlOq-WQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422953666357:android:4ab42b13da7acba4",
+        "android_client_info": {
+          "package_name": "radconcursosfree.mxtechnologies.com.radiologiaconcursosfree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422953666357-8dm9u033vc8i7n76ev5a6e6jsps7gora.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "radconcursosfree.mxtechnologies.com.radiologiaconcursosfree",
+            "certificate_hash": "fd57db2489053c3a1fc116fee3a93b284b6743e4"
+          }
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDubPBXmr8cZvAeoDFxzSL6jUfWXJlUzL0"
+        },
+        {
+          "current_key": "AIzaSyCSdEqmjQ9PeJnNW8WxFO7AxIFTlOq-WQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422953666357:android:34cd5f8f5ed9b0fe",
+        "android_client_info": {
+          "package_name": "radiologia.mxtecnlogies.com.radiologia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422953666357-6jg5ii4f7ut2efm5dc89ulekd5iec8bl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "radiologia.mxtecnlogies.com.radiologia",
+            "certificate_hash": "fd57db2489053c3a1fc116fee3a93b284b6743e4"
+          }
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDubPBXmr8cZvAeoDFxzSL6jUfWXJlUzL0"
+        },
+        {
+          "current_key": "AIzaSyCSdEqmjQ9PeJnNW8WxFO7AxIFTlOq-WQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422953666357:android:73216e273a7d4447",
+        "android_client_info": {
+          "package_name": "susparaconcursos.mxtechnologies.com.susparaconcursos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422953666357-900ubb2t3on26puphp8jcs1rfeeot17c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "susparaconcursos.mxtechnologies.com.susparaconcursos",
+            "certificate_hash": "fd57db2489053c3a1fc116fee3a93b284b6743e4"
+          }
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDubPBXmr8cZvAeoDFxzSL6jUfWXJlUzL0"
+        },
+        {
+          "current_key": "AIzaSyCSdEqmjQ9PeJnNW8WxFO7AxIFTlOq-WQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422953666357-v1ckkucunbq01sbq9c7h5dr09elkgfam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
